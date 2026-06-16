@@ -37,3 +37,13 @@ Next Step - To connect with your Git Hub Account
 -->Now we have pushed from main branch local repo to main branch central repo
 -->Central Repo also have the branches i.e main
 -->add commit push
+
+//Content added by Gaurav
+
+Gaurav will pull the data command for pulling the data is
+git pull origin main
+
+verify by running cat filename
+git branch
+git branch -m main -->rename to main
+git log
