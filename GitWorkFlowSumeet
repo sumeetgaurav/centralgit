@@ -1,0 +1,27 @@
+//Content added by Sumeet
+--------------------------------------------------------------------------------------------------------------------
+-->First Switch to Root User: sudo su -
+-->git --version (To Verify the Version Of Git)
+-->git config --list(Global Configuration from which commit will happen)
+-->cd mumbaigit --> move to mumbaigit directory
+-->mkdir mumbaigit
+-->Inside the directory run--> git init
+-->Once git init command is get executed three stages will get created i.e workspace,staging/index(invisible,imaginary),localrepo
+-->local repo has one branch which is main branch.
+-->One hidden file will get created which is .git file which is created in workspace and is called local repo
+-->Create one file with the Name GitWorkFlowSumeet, To create a file vi GitWorkFlowSumeet
+-->To verify run--> ls -a 
+-->To verify the status of the file run --> git status
+-->It will show untracked file because Git cannot track this file because the file is in workspace only.
+-->To add the copy of the file to staging area run the below command
+--> Git add . or Git add filename
+--> . represents current directory if multiple files then use .
+--> Now run git status command to verify
+--> Git took the snapshot of the file including data inside it but haven't commited it yet
+-->In order to save the snapshot permanently in local repo run the command
+--> git commit -m "workflow commit" -m is a message which tells what comment u want to enter
+--> run git status to verify
+-->open the file with command cat GitWorkFlowSumeet see the data
+-->run ls -a
+-->git log -->This command will show the commit in local repository with commit id(latest will show first)
+-->git show commitid(enter first 7 commit id)
