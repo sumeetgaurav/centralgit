@@ -25,3 +25,15 @@
 -->run ls -a
 -->git log -->This command will show the commit in local repository with commit id(latest will show first)
 -->git show commitid(enter first 7 commit id)
+
+Next Step - To connect with your Git Hub Account 
+-->Go to your repository - https://github.com/sumeetgaurav/centralgit
+-->Look for the command at the bottom --> git remote add origin https://github.com/sumeetgaurav/centralgit.git
+-->To verify run the command --> git remote -v
+-->To see the branch run the command --> git branch (It will show the branch in local repo)
+-->rename the branch to main --> git branch -M main
+--> push it central repo --> git push -u origin main
+-->It will ask for username and password(password will be security token)
+-->Now we have pushed from main branch local repo to main branch central repo
+-->Central Repo also have the branches i.e main
+-->add commit push
