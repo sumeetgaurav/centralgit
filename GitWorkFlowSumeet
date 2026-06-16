@@ -47,3 +47,12 @@ verify by running cat filename
 git branch
 git branch -m main -->rename to main
 git log
+
+//Content added by Sumeet
+
+Sumeet is going to pull the data
+Then he will verify by running cat filename
+git log
+And then he will pull the data --> git pull origin main
+Now he will add his work in the by running the command vi filename
+
